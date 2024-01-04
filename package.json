@@ -1,0 +1,13 @@
+{
+  "name": "redis-lock",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node lock-promise.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "3.1.2",
+    "nodemon": "^3.0.2",
+    "redlock": "4.2.0"
+  }
+}
